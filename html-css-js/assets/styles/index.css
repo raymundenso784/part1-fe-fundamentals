@@ -1,0 +1,17 @@
+.div-content {
+    background: #ABCEDE;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#bg-color {
+    background: #4485a3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

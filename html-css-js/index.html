@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- Ensures the webpage is responsive and adapts to different screen sizes -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO Meta Tags -->
+        <title>Best Web Development Tips | Learn HTML, CSS & JavaScript</title>
+        <meta name="description" content="Learn how to build websites using HTML, CSS, and JavaScript. Get expert tips and tutorials for web development.">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Web Development, Frontend, Coding">
+        <meta name="author" content="Your Name">
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+        <link rel="stylesheet" href="./assets/styles/index.css">
+        <style>
+            div {
+                border: 1px solid purple;
+            }
+        </style>
+    </head>
+    <body id="bg-color">
+        <div>
+            <h1 style="font-size: 50px; color: gray;">Hello World</h1>
+            <p>This is a content</p>
+            <div>
+                <div class="div-content">
+                    <p>Another content</p>
+                </div>
+                <div class="div-content text-center">
+                    <p>Another content</p>
+                </div>
+                <div class="div-content text-right">
+                    <p>Another content</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="width: 100%; height:400px; border: 1px solid;">
+            <div style="width: 50%; height: 50px; float: left;">
+
+            </div>
+            <div style="width: 10%; height: 100px; float: right;">
+
+            </div>
+        </div>
+        <div style="width: 100%;">
+            <form action="#" method="POST">
+                
+                <!-- Text Input -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <!-- Number Input -->
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="99" required>
+                <br><br>
+
+                <!-- Date Input -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+
+                <!-- Select Dropdown -->
+                <label for="country">Select Country:</label>
+                <select id="country" name="country" required>
+                    <option value="usa">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                </select>
+                <br><br>
+
+                <!-- Checkbox -->
+                <label>Interests:</label><br>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label><br>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label><br><br>
+
+                <!-- Radio Buttons -->
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+
+                <!-- Submit Button -->
+                <button>Submit</button>
+
+            </form>
+        </div>
+        <ul>
+            <li>UL 1</li>
+            <li>UL 2</li>
+            <li>UL 3</li>
+            <li>UL 4</li>
+            <li>UL 5</li>
+        </ul>
+        <ol>
+            <li>OL 1</li>
+            <li>OL 2</li>
+            <li>OL 3</li>
+            <li>OL 4</li>
+            <li>OL 5</li>
+        </ol>
+    </body>
+</html>
